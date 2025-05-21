@@ -10,7 +10,7 @@ const skillsData: SkillCategory[] = [
   },
   {
     name: "Backend",
-    skills: ["Node.js", "Python", "Flask", ".NET"]
+    skills: ["Node.js", "Python", "Pandas", "Scikit-learn", "Flask", ".NET"]
   },
   {
     name: "Database",
@@ -18,11 +18,11 @@ const skillsData: SkillCategory[] = [
   },
   {
     name: "DevOps",
-    skills: ["Git", "GitHub", "Docker", "AWS", "CI/CD", "Vercel"]
+    skills: ["Git", "GitHub", "Docker", "AWS", "Azure", "CI/CD"]
   },
   {
     name: "Tools",
-    skills: ["VS Code", "Figma", "Postman", "Jest", "Webpack", "npm/yarn"]
+    skills: ["VS Code", "Figma", "Postman", "npm/yarn"]
   }
 ];
 
