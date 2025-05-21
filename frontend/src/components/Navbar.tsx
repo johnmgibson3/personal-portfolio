@@ -27,7 +27,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-200 ${isScrolled ? 'bg-background/95 backdrop-blur-md shadow-md' : 'bg-transparent'}`}>
+    <header className={`fixed w-full z-50 pt-2 pb-2 transition-all duration-200 ${isScrolled ? 'bg-background/95 backdrop-blur-md shadow-md' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <a href="#home" className="text-2xl font-bold text-primary">
           Portfolio
