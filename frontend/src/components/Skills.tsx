@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface SkillCategory {
   name: string;
   skills: string[];
@@ -8,15 +6,15 @@ interface SkillCategory {
 const skillsData: SkillCategory[] = [
   {
     name: "Frontend",
-    skills: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "TailwindCSS", "Redux"]
+    skills: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Angular", "TailwindCSS"]
   },
   {
     name: "Backend",
-    skills: ["Node.js", "Express", "Python", "Django", "PHP", "Laravel"]
+    skills: ["Node.js", "Python", "Flask", ".NET"]
   },
   {
     name: "Database",
-    skills: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase"]
+    skills: ["PostgreSQL", "MySQL", "Amazon RDS", "Oracle Database"]
   },
   {
     name: "DevOps",

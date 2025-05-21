@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Github, Link } from 'lucide-react';
 
@@ -15,28 +14,28 @@ interface Project {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "Movie Streaming Platform",
-    description: "A custom movie streaming platform build with custom machine learning models to recommend movies to users. It was built with React, .NET, and MySQL",
-    image: "/placeholder.svg",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    githubUrl: "https://github.com",
+    title: "CineNiche - Movie Streaming Platform",
+    description: "A secure movie streaming platform build with custom machine learning models to recommend movies to users. It was built with React, .NET, and MySQL",
+    image: "/src/assets/images/CineNiche.png",
+    technologies: ["React","TypeScript", ".NET", "Azure ML", "MySQL"],
+    githubUrl: "https://github.com/ISTeam1-1/INTEX",
     liveUrl: "https://example.com",
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A Kanban-style task management application with drag-and-drop functionality and team collaboration features.",
-    image: "/placeholder.svg",
-    technologies: ["TypeScript", "React", "Firebase", "TailwindCSS"],
-    githubUrl: "https://github.com",
+    title: "Turtle Shelter Project - Charity Management System",
+    description: "A website that allows a charity to manage their donations and volunteers. Features a fully functional admin dashboard and custom email system. It was built with JavaScript and deployed to AWS",
+    image: "/src/assets/images/TurtleShelter.png",
+    technologies: ["JavaScript", "AWS", "Amazon RDS", "Amazon Beanstalk"],
+    githubUrl: "https://github.com/Team1-12/intex-2024",
     liveUrl: "https://example.com",
   },
   {
     id: 3,
-    title: "Weather Dashboard",
-    description: "A weather dashboard that displays current conditions and forecasts for multiple locations with interactive charts.",
+    title: "Mail Services Financial System",
+    description: "A financial system that allows BYU's Print and Mail center to manage their finances transactions. It was built with TypeScript, Angular, Python Flask, and Oracle Database",
     image: "/placeholder.svg",
-    technologies: ["JavaScript", "React", "Chart.js", "OpenWeather API"],
+    technologies: ["TypeScript", "Angular", "Python Flask", "Oracle Database"],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
   },
