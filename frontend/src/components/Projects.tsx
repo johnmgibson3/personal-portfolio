@@ -16,10 +16,10 @@ const projectsData: Project[] = [
     id: 1,
     title: "CineNiche - Movie Streaming Platform",
     description: "A secure movie streaming platform build with custom machine learning models to recommend movies to users. It was built with React, .NET, and MySQL",
-    image: "/src/assets/images/CineNiche.png",
+    image: "/src/assets/images/CineNiche.jpeg",
     technologies: ["React","TypeScript", ".NET", "Azure ML", "MySQL"],
-    githubUrl: "https://github.com/ISTeam1-1/INTEX",
-    liveUrl: "https://example.com",
+    githubUrl: "https://github.com/johnmgibson3/INTEX2_cineniche",
+    liveUrl: "https://cineniche.net",
   },
   {
     id: 2,
