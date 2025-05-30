@@ -15,7 +15,7 @@ const Hero = () => {
               John Gibson
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-muted-foreground mb-6 animate-fade-in opacity-0" style={{ animationDelay: '0.6s' }}>
-              Information Systems Student and Aspiring Cloud Engineer.
+              Information Systems Student and Aspiring Cloud Engineer byu.
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-xl animate-fade-in opacity-0" style={{ animationDelay: '0.8s' }}>
               I'm a software developer specializing in building secure, scalable, and efficient software solutions.
