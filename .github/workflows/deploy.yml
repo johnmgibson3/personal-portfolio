@@ -14,5 +14,7 @@ jobs:
       - name: Build & deploy
         run: |
           cd "${{ github.workspace }}"
-          docker compose down
-          docker compose up -d --build
+          # stop & remove any old containers (even if names changed)
+          docker compose down --remove-orphans
+          # rebuild and recreate everything
+          docker compose up -d --force-recreate --remove-orphans --build
