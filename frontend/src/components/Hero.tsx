@@ -14,12 +14,11 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in opacity-0" style={{ animationDelay: '0.4s' }}>
               John Gibson
             </h1>
-            <h2 className="text-3xl md:text-5xl font-bold text-muted-foreground mb-6 animate-fade-in opacity-0" style={{ animationDelay: '0.6s' }}>
-              I build things for the web.
+            <h2 className="text-3xl md:text-4xl font-bold text-muted-foreground mb-6 animate-fade-in opacity-0" style={{ animationDelay: '0.6s' }}>
+              Information Systems Student and Aspiring Cloud Engineer.
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-xl animate-fade-in opacity-0" style={{ animationDelay: '0.8s' }}>
-              I'm a software developer specializing in building exceptional digital experiences. 
-              Currently, I'm focused on creating accessible, user-centered products.
+              I'm a software developer specializing in building secure, scalable, and efficient software solutions.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in opacity-0" style={{ animationDelay: '1s' }}>
               <Button size="lg" asChild>
