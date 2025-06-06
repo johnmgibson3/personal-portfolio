@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Github, Link } from 'lucide-react';
-
+import CineNiche from '@/assets/images/CineNiche.jpeg';
 interface Project {
   id: number;
   title: string;
@@ -16,7 +16,7 @@ const projectsData: Project[] = [
     id: 1,
     title: "CineNiche - Movie Streaming Platform",
     description: "A secure movie streaming platform build with custom machine learning models to recommend movies to users. It was built with React, .NET, and MySQL",
-    image: "/src/assets/images/CineNiche.jpeg",
+    image: CineNiche,
     technologies: ["React","TypeScript", ".NET", "Azure ML", "MySQL"],
     githubUrl: "https://github.com/johnmgibson3/INTEX2_cineniche",
     liveUrl: "https://cineniche.net",
