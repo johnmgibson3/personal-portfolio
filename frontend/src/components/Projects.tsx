@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Github, Link } from 'lucide-react';
 import CineNiche from '@/assets/images/CineNiche.jpeg';
+import TurtleShelter from '@/assets/images/TurtleShelter.png';
 interface Project {
   id: number;
   title: string;
@@ -25,7 +26,7 @@ const projectsData: Project[] = [
     id: 2,
     title: "Turtle Shelter Project - Charity Management System",
     description: "A website that allows a charity to manage their donations and volunteers. Features a fully functional admin dashboard and custom email system. It was built with JavaScript and deployed to AWS",
-    image: "/src/assets/images/TurtleShelter.png",
+    image: TurtleShelter,
     technologies: ["JavaScript", "AWS", "Amazon RDS", "Amazon Beanstalk"],
     githubUrl: "https://github.com/Team1-12/intex-2024",
     liveUrl: "https://example.com",
