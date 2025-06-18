@@ -37,8 +37,8 @@ const projectsData: Project[] = [
     description: "A financial system that allows BYU's Print and Mail center to manage their finances transactions. It was built with TypeScript, Angular, Python Flask, and Oracle Database",
     image: "/placeholder.svg",
     technologies: ["TypeScript", "Angular", "Python Flask", "Oracle Database"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    // githubUrl: "https://github.com",
+    // liveUrl: "https://example.com",
   },
 ];
 
