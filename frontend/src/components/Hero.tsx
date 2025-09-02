@@ -18,7 +18,7 @@ const Hero = () => {
               Information Systems Student at BYU's Marriott School of Business
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-xl animate-fade-in opacity-0" style={{ animationDelay: '0.8s' }}>
-              I'm an aspiring cloud engineer specializing in building secure, scalable, and efficient software solutions.
+              I'm an aspiring sofware engineer specializing in building secure, scalable, and efficient software solutions.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in opacity-0" style={{ animationDelay: '1s' }}>
               <Button size="lg" asChild>

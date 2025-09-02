@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
@@ -27,6 +27,12 @@ const Contact = () => {
               If you have a project that could use my help, please don't hesitate to reach out.
             </p>
             
+            <div className="flex items-center">
+                <Phone size={20} className="text-primary mr-3" />
+                <a href="tel:801-555-1234" className="hover:text-primary transition-colors">
+                  (660) 605-1216
+                </a>
+              </div>
             <div className="space-y-4 mb-8">
               <div className="flex items-center">
                 <Mail size={20} className="text-primary mr-3" />
@@ -59,7 +65,7 @@ const Contact = () => {
             </div>
           </div>
           
-          <div className="glass p-6">
+          {/* <div className="glass p-6">
             <h3 className="text-xl font-semibold mb-4">Send a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
@@ -97,7 +103,7 @@ const Contact = () => {
                 Send Message
               </Button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
