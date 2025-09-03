@@ -45,7 +45,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button asChild>
-            <a href="/gibson_john_resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Gibson_John_Resume.pdf" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </Button>
@@ -76,7 +76,7 @@ const Navbar = () => {
             ))}
             <Button className="w-full" asChild>
               <a
-                href="/gibson_john_resume.pdf"
+                href="/Gibson_John_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
