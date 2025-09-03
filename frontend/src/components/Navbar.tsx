@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -44,7 +44,11 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <Button>Resume</Button>
+          <Button asChild>
+            <a href="/gibson_john_resume.pdf" target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
+          </Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -70,7 +74,16 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button className="w-full">Resume</Button>
+            <Button className="w-full" asChild>
+              <a
+                href="/gibson_john_resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Resume
+              </a>
+            </Button>
           </div>
         </div>
       )}
